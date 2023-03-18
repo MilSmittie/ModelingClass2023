@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: HeadFinish.ma
-//Last modified: Thu, Mar 16, 2023 11:04:37 PM
+//Last modified: Thu, Mar 16, 2023 11:15:22 PM
 //Codeset: 1252
 requires maya "2023";
 requires "mtoa" "5.1.0";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "27C1B509-43C0-D76E-8A51-C095B1AE5410";
+fileInfo "UUID" "960E6DB5-41EC-DE02-AE75-ADB82DF46B53";
 createNode transform -s -n "persp";
 	rename -uid "3DC569BD-4093-AEF4-8D92-D48E6DC93F79";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.5259975171521738 3.7133206631531928 21.286453947099439 ;
-	setAttr ".r" -type "double3" 1.4616472705430572 355.79999999963928 -1.2457496615359393e-17 ;
+	setAttr ".t" -type "double3" 1.6527577671744162 3.4637089099024432 21.349039239705192 ;
+	setAttr ".r" -type "double3" -2.1383527294572131 360.19999999963477 -3.8825366926379809e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E119AB18-43FD-7C8C-09C3-849CCB3DFEA4";
 	setAttr -k off ".v" no;
